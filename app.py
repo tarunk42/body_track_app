@@ -72,7 +72,7 @@ while True:
         except Exception as e:
             print(e)
 
-        img = image[:, :460, :]
+        img = image[:, :, :]
         imgarr = Image.fromarray(img)
         frame_placeholder.image(imgarr)
 
